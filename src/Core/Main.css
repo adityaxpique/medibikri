@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+  .card-render{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.maintop{
+  background-color: rgb(239, 239, 239);
+}
+
+.intro-main{
+  height: 130vh;
+}

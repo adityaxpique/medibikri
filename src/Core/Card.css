@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 1500px;
+}
+.upper-sec {
+  display: flex;
+  flex-direction: row;
+}
+.lower-sec {
+  display: flex;
+  flex-direction: row;
+}
+.container .card {
+  width: 1300px;
+  margin: 50px;
+  height: 150px;
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  background: #e8e8e8;
+  border-radius: 10px;
+  transition: all 300ms linear;
+  box-shadow: -6px -6px 20px rgba(255, 255, 255, 1),
+    6px 6px 20px rgba(0, 0, 0, 0.1);
+  transition: all 500ms ease-in;
+  cursor: pointer;
+}
+
+.container .card:hover {
+  height: 350px;
+}
+
+.boldd {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.card:hover .lower-sec{
+  opacity: 1;
+}
+
+.lower-sec {
+  opacity: 0;
+  transition: all 800ms ease-in;
+}
+
+.container .card .imgBx {
+  position: relative;
+  text-align: center;
+  width: 60%;
+}
+.container .card .imgBx img {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+}
+.container .card .contentBx {
+  position: relative;
+  text-align: left;
+  margin-left: 25px;
+  width: 45%;
+}
+.container .card .btnBx {
+  position: relative;
+  text-align: center;
+  margin-left: 25px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .card .btnBx span {
+  position: relative;
+  text-align: center;
+  margin-left: 25px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+.linee {
+  width: 100%;
+  height: 1px;
+  color: rgb(0, 0, 0);
+  outline: none;
+}
+
+
+.container .card .btnBx .launch-btns {
+  color: #888;
+  font-weight: 400;
+  font-size: 0.8em;
+  letter-spacing: 2px;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.launchlist {
+  display: flex;
+  flex-direction: row;
+}
+.container .card .imgBx h2 {
+  color: #b49900;
+  font-weight: 700;
+  font-size: 1em;
+  letter-spacing: 2px;
+  text-align: left;
+  margin-top: 25px;
+}
+
+.container .card .contentBx h3 {
+  color: #888;
+  font-weight: 400;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.container .card .contentBx p {
+  color: #bdaa42;
+}
+.container .card .btnBx a {
+  display: inline-block;
+  padding: 20px 30px;
+  text-align: center;
+  border-radius: 10px;
+  color: #bdaa42;
+  font-size: 14px;
+  text-decoration: none;
+  box-shadow: -4px -4px 15px rgba(255, 255, 255, 1),
+    4px 4px 15px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+  width: 220px;
+}
+.container .card .btnBx a:hover {
+  box-shadow: inset -4px -4px 10px rgba(255, 255, 255, 0.5),
+    inset 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container .card a span {
+  display: block;
+  transform: scale(0.98);
+}
